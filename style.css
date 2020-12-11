@@ -1,0 +1,142 @@
+/*font styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Russo+One&display=swap');
+
+h1{
+  text-align:center;
+  font-weight:bold;
+  font-family:russo one;
+  font-size:50px;
+}
+
+h2{
+  text-align:center;
+  font-family:karma;
+}
+
+h3{
+  text-align:center;
+  font-family:karma;
+}
+
+h4{
+  font-family:karma;
+  color:#1E90FF;
+}
+
+/*navbar*/
+.nav-list{
+  background-color:#1E90FF;
+  margin:0;
+  padding:1rem 0;
+  display:flex;
+  justify-content:space-around;
+}
+
+.nav-item{  
+  list-style:none;
+}
+
+.nav-item a{
+  text-decoration:none;
+  color:black;
+}
+
+button{
+  background-color:#1E90FF;
+  font-size:25px;
+  border:none;
+  text-decoration:none;
+  transition-property:background-color;
+  transition-duration:750ms;
+}
+
+button:hover{
+  background-color:#4682B4;
+  border-radius:5px;
+}
+
+.about{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+img{
+  height:400px;
+  width:400px;
+}
+
+#photo{
+  max-height:400px;
+  max-width:400px;
+  padding:5px;
+  border:5px solid black;
+}
+
+p{
+  font-family:karma;
+}
+
+.me{
+  width:400px;
+}
+
+div.resume{
+  width:500px;
+  font-family:karma;
+}
+
+li{
+  list-style-type:circle;
+  font-family:karma;
+}
+ 
+div.skills{
+  width:500px;
+  display:flex;
+  flex-direction:column;
+}
+
+#skills{
+  align-self:center;
+}
+
+#word{
+  max-height:150px;
+  max-width:150px;
+  padding:10px;
+}
+
+div.design-work{
+  margin-bottom:20px;
+}
+
+/*footer*/
+footer{
+  display:block;
+  background-color:#1E90FF;
+  text-align:center;
+  padding:5px;
+}  
+
+div.social{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+@media (max-width:600px) {
+  p{
+    font-size:1.25rem;
+  }
+}
+
+@media (max-width:800px) {
+  p{
+    font-size:1.5rem;
+    line-height:1.5;
+  }
